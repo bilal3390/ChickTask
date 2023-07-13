@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Bootstrap Scripts
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <img class="bg" src="images/bg.jpeg" alt="" />
+    <br /><br /><br />
+    <h1 id="signup_h1">
+        Welcome to the Signup Page of <span id="signup_Brand">ChickTask</span>
+    </h1>
+    <div class="signup_container col-lg-4" >
+        <form action="/signup" method="post">
+            <label for="email" name="emain">Email</label><br /><br />
+            <input type="email" name="email" placeholder="email" /><br /><br />
+            <label for="password" name="password">password</label><br /><br />
+            <input type="password" name="password" placeholder="password" /><br /><br />
+            <button type="submit">Submit</button>
+        </form>
+        <h5>Already SignedIn? <a href="http://localhost:3000/login">Login</a></h5>
+    </div>
+</body>
+
+</html>

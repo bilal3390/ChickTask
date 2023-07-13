@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="bg" src="/images/bg.jpeg" alt="">
+    <br><br><br>
+    <h1 class="admin_h1">This is Admin Dashboard</h1>
+    <h3 style="text-align: center;">To check all Tasks added by users click button below....</h3>
+    <div class="show">
+        
+    </div>
+    <div class="signup_container">
+        <br><br>
+        <form action="/fetch_admin" method="post">
+            <input type="email" name="email" placeholder="Enter user Email"><br><br>
+            <button type="submit">Find Tasks</button>
+            <br><br>
+        </form>
+        <form action="/delete" method="post">
+            <input type="text" name="id" placeholder="Enter Task ID"><br><br>
+            <button type="submit">Delete Tasks</button>
+            <br><br>
+        </form>
+    </div>
+
+</body>
+</html>

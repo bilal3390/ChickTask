@@ -1,0 +1,20 @@
+{
+  "name": "chicktask",
+  "version": "1.0.0",
+  "description": "This is task manager website made by Bilal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "M. Bilal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
